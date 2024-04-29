@@ -9,7 +9,7 @@ export default function WorkExperience() {
                 <div>January 2023 - present</div>
                 <div class="col-span-3">
                     <Company 
-                        name="TLM"
+                        name="TLM Software Design"
                         position="Principal Software Development Engineer"
                         project={<p>Continuation of previos project for SiriusXM. Design and development of Type Acceptance test suite using Cucumber test framework on Ruby. Process development and documentation.<br />
                         Internal tools development, such as logs processing tool to help engineers to locate and organize the required logs for failed sceanrios. Web Application development using ASP.NET Blazor framework to help with failures triage process after internal test runs on the reference applications.<br />
