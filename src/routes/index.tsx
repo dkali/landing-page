@@ -20,6 +20,11 @@ export default function Home() {
               </div> 
             </div>
           </div>
+          <div class="basis-2/5 self-end">
+            <div style="position: relative; left: -40%;">
+              <img src="DSCF8128 small.png" />
+            </div>
+          </div>
         </div>
 
         <div class="flex flex-row">
