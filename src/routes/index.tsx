@@ -1,5 +1,4 @@
 import { A } from "@solidjs/router";
-import Counter from "~/components/Counter";
 import Greetings from "~/components/Greetings";
 import Contacts from "~/components/Contacts";
 import WorkExperience from "~/components/WorkExperience";
