@@ -33,3 +33,21 @@ By default, `npm run build` will generate a Node app that you can run with `npm 
 
 ## CSS
 This project is using [tailwindss](https://tailwindcss.com/docs/installation)
+
+## Hosting
+Documentation for [build docker image](https://docs.docker.com/get-started/02_our_app/)
+
+Build image and run container
+```bash
+# build iamge for Mac
+docker build -t getting-started .
+# build image for NAS
+docker build --platform=linux/amd64 -t landing-page .
+
+# publish
+docker tag landing-page marvin48/landing-page
+docker push marvin48/landing-page
+
+# run container
+docker run -dp 127.0.0.1:3000:3000 getting-started
+```
