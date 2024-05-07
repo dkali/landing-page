@@ -27,11 +27,11 @@ export default function Home() {
         </div>
 
         <div class="flex flex-row">
-            <div class="basis-1/12" />
-            <div class="basis-10/12">
-              <WorkExperience />
-              <Education />
-            </div>
+          <div class="basis-1/12" />
+          <div class="basis-10/12">
+            <WorkExperience />
+            <Education />
+          </div>
         </div>        
 
       </div>
