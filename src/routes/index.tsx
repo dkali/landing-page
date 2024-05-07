@@ -21,7 +21,7 @@ export default function Home() {
           </div>
           <div class="basis-2/5 self-end">
             <div style="position: relative; left: -40%;">
-              <img src="DSCF8128 small.png" />
+              <img src="photo.png" />
             </div>
           </div>
         </div>
