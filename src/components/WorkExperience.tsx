@@ -6,12 +6,23 @@ export default function WorkExperience() {
       <p class="font-sans font-bold text-3xl
         underline decoration-blue-600 decoration-8 underline-offset-8">Work Experience</p>
       <div class="grid grid-cols-4 gap-4 mt-10">
-        <div>January 2023 - present</div>
+        <div>November 2024 - present</div>
+        <div class="col-span-3">
+          <Company 
+            name="SiriusXM"
+            position="Principal Software Development Engineer"
+            project={<p>Design and development of Type Acceptance test suite using Cucumber test framework on Ruby. Process development and documentation.<br />
+            Internal tools development, such as Satellite Module engineering client.<br />
+            Team leading, project metrics reporting, technicall meetings.</p>}
+            language="Ruby, C#"
+          />
+        </div>
+        <div>January 2023 - November 2024</div>
         <div class="col-span-3">
           <Company 
             name="TLM Software Design"
             position="Principal Software Development Engineer"
-            project={<p>Continuation of previos project for SiriusXM. Design and development of Type Acceptance test suite using Cucumber test framework on Ruby. Process development and documentation.<br />
+            project={<p>Continuation of previous project for SiriusXM. Design and development of Type Acceptance test suite using Cucumber test framework on Ruby. Process development and documentation.<br />
             Internal tools development, such as logs processing tool to help engineers to locate and organize the required logs for failed sceanrios. Web Application development using ASP.NET Blazor framework to help with failures triage process after internal test runs on the reference applications.<br />
             Team leading, project metrics reporting, technicall meetings with the customer.</p>}
             language="Ruby, C#"
@@ -22,7 +33,7 @@ export default function WorkExperience() {
           <Company 
             name="SWTecNN"
             position="Principal Software Development Engineer"
-            project={<p>Continuation of previos project for SiriusXM. Design and development of Type Acceptance test suite using Cucumber test framework.<br />
+            project={<p>Continuation of previous project for SiriusXM. Design and development of Type Acceptance test suite using Cucumber test framework.<br />
             Internal tools development, such as data packets decoder to support the entire range of SiriusXM's data services, UI plugins on WPF extending SiriusXM's internal test framework.<br />
             Team leading, project metrics reporting, technicall meetings with the customer.</p>}
             language="Ruby, C#"
