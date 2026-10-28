@@ -25,14 +25,21 @@ npm run dev -- --open
 
 ## Building
 
-Solid apps are built with _presets_, which optimise your project for deployment to different environments.
+SolidStart 2 requires Node.js 24 or newer. Build the app with:
 
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different preset, add it to the `devDependencies` in `package.json` and specify in your `app.config.js`.
+```bash
+npm run build
+
+# preview the production build locally
+npm run preview
+```
+
+The production build uses Nitro's Netlify preset.
 
 ## This project was created with the [Solid CLI](https://solid-cli.netlify.app)
 
 ## CSS
-This project is using [tailwindss](https://tailwindcss.com/docs/installation)
+This project uses [Tailwind CSS](https://tailwindcss.com/docs) with its Vite plugin.
 
 ## Hosting
 Documentation for [build docker image](https://docs.docker.com/get-started/02_our_app/)
