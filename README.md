@@ -42,6 +42,8 @@ The production build uses Nitro's Netlify preset.
 This project uses [Tailwind CSS](https://tailwindcss.com/docs) with its Vite plugin.
 
 ## Hosting
+The website is hosted on Netlify. Netlify automatically builds and publishes the site whenever a commit is pushed to the connected repository. The build uses Node.js 24, as specified in `.nvmrc`.
+
 Documentation for [build docker image](https://docs.docker.com/get-started/02_our_app/)
 
 Build image and run container
