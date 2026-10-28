@@ -11,10 +11,10 @@ export default function WorkExperience() {
           <Company 
             name="SiriusXM"
             position="Principal Software Development Engineer"
-            project={<p>Design and development of Type Acceptance test suite using Cucumber test framework on Ruby. Process development and documentation.<br />
-            Internal tools development, such as Satellite Module engineering client.<br />
+            project={<p>Design and development of internal test frameworks for Type Acceptance. Test scripts development for Cucumber/Ruby and JUnit/Kotlin type tests. Process development and documentation.<br />
+            Tools development and support.<br />
             Team leading, project metrics reporting, technicall meetings.</p>}
-            language="Ruby, C#"
+            language="Ruby, C#, Kotlin"
           />
         </div>
         <div>January 2023 - November 2024</div>

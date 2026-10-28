@@ -10,9 +10,9 @@ export default function Contacts() {
         </div>
         <div class="basis-4/5">
           <p class="text-white leading-loose">secretshelter@gmail.com</p>
-          <p class="text-white leading-loose">+7 920 006 8316</p>
+          <p class="text-white leading-loose">+353 87 031 1368</p>
           <p class="text-white leading-loose">@dkalinnikov</p>
-          <p class="text-white leading-loose">Belgrade, Strumicka 2a</p>
+          <p class="text-white leading-loose">Dublin, Ireland</p>
         </div>
       </div>
       
